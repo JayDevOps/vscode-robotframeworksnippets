@@ -1,0 +1,40 @@
+{
+	"name": "vscode-robotframework-snippets",
+	"displayName": "Robot Framework Snippets",
+	"description": "Robot Framework Snippets for VS Code",
+	"icon": "images/robotframework.ico",
+	"version": "0.0.1",
+	"publisher": "jaydevops",
+	"license":"MIT",
+	"homepage":"https://github.com/JayDevOps/vscode-robotframeworksnippets/blob/master/README.md",
+	"repository": {
+        "type": "git",
+        "url": "https://github.com/jaydevops/vscode-robotframeworksnippets.git"
+    },
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"galleryBanner": {
+        "color": "#E6E0EA",
+        "theme": "light"
+    },
+    
+  "dependencies": {
+    "vscode-languageserver": "^3.1.0",
+    "vscode-restructuredtext": "26.0.0"
+  },
+  "extensionDependencies":[
+      "vscode-restructuredtext.vscode-restructuredtext"
+  ],
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "robotframework",
+				"path": "./snippets/snippets.json"
+			}
+		]
+	}
+}
